@@ -33,11 +33,7 @@ func main() {
 	// Access elements of the 2D array
 	fmt.Println("Element at [1][2]:", matrix[1][2])
 
-	var fruits [3]string
-
-	fruits[0] = "Apple"
-	fruits[1] = "Banana"
-	fruits[2] = "Cherry"
+	var fruits = [3]string{"Apple", "Banana", "Cherry"}
 
 	fmt.Println("Fruits array:", fruits)
 }
